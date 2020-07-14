@@ -1,0 +1,22 @@
+body, html{
+    margin: 0;
+    padding 0;
+}
+.buttons{
+    border:black solid 1px;
+    display:flex;
+    flex:1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.innerDiv{
+    width:10rem;
+    padding: 1rem .5rem;
+    border: black solid .4rem;
+    border-radius:  .5rem;
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
