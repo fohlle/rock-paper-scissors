@@ -12,6 +12,9 @@ body, html{
     margin-top:50vh;
     border:black solid 1px;
 }
+.innerDiv:hover{
+    border:#5accdb solid 1px;
+}
 .innerDiv{
     width:10rem;
     padding: 1rem .5rem;
