@@ -1,14 +1,14 @@
 body, html{
     margin: 0;
-    padding 0;
+    padding: 0;
 }
 .buttons{
-    border:black solid 1px;
     display:flex;
     flex:1;
-    min-height: 100vh;
+    height: 50%;
     align-items: center;
     justify-content: center;
+    margin-top:50vh;
 }
 .innerDiv{
     width:10rem;
@@ -18,5 +18,21 @@ body, html{
     margin: 1rem;
     text-align: center;
     font-size: 1.5rem;
-
+    background-color: rgba(89, 223, 247, 0.18);
+}
+#result{
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    position:relative;
+    top:300px;
+    transform:scale(1.5);
+}
+#result p{
+    color:red;
+    border: black solid 1px;
+    padding: 1rem 1rem;
+    width:10rem;
+    margin-top:0;
+    margin-bottom:0;
 }
