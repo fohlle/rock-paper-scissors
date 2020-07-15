@@ -1,6 +1,7 @@
 body, html{
     margin: 0;
     padding: 0;
+    background-color: rgba(202, 226, 218, 0.6);
 }
 .buttons{
     display:flex;
@@ -9,6 +10,7 @@ body, html{
     align-items: center;
     justify-content: center;
     margin-top:50vh;
+    border:black solid 1px;
 }
 .innerDiv{
     width:10rem;
@@ -20,19 +22,33 @@ body, html{
     font-size: 1.5rem;
     background-color: rgba(89, 223, 247, 0.18);
 }
-#result{
+#player{
     text-align: center;
     justify-content: center;
     display:flex;
     position:relative;
     top:300px;
-    transform:scale(1.5);
 }
-#result p{
-    color:red;
+#player p{
     border: black solid 1px;
     padding: 1rem 1rem;
-    width:10rem;
+    width:12rem;
+    height:4rem;
     margin-top:0;
     margin-bottom:0;
+    font-size: 26px;
+    color:gray;
+    text-shadow: black 1px 1px 1px;
+    border-radius: .5rem;
+}
+#result{
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    position: absolute;
+    width:100%;
+    padding-bottom:10%;
+}
+#result p{
+    padding-top:20px;
 }
