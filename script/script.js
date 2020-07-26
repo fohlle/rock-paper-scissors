@@ -11,6 +11,7 @@ function computerChoice(){
     }
 }
 
+
 /*
 function playerChoice(){
     text = testText.toLowerCase();

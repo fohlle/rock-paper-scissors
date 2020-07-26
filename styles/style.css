@@ -2,6 +2,7 @@ body, html{
     margin: 0;
     padding: 0;
     background-color: rgba(202, 226, 218, 0.6);
+    
 }
 .buttons{
     display:flex;
